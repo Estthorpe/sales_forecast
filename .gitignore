@@ -1,0 +1,32 @@
+# Ignore data, forecasts, and EDA folders
+data/
+forecasts/
+EDA Phase/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folders
+.venv/
+venv/
+env/
+*.env
+
+# IDE and OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model/artifact files
+*.log
+*.tmp
+*.pkl
+*.joblib
+*.json
